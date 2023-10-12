@@ -1,7 +1,3 @@
-// Java Program to illustrate Reading from FileReader
-// using BufferedReader Class
-
-// Importing input output classes
 import java.io.*;
 import java.util.HashMap;
 
@@ -174,7 +170,6 @@ public class BareBones {
             vals.put(variable,vals.get(variable)+1);
             // System.out.println(String.format("Incrementing %s by one...", variable));
         }else if(call.equals("decr")){
-            // X--;
             vals.put(variable,vals.get(variable)-1);
             // System.out.println(String.format("Decrementing %s by one...", variable));
         }
@@ -222,7 +217,6 @@ public class BareBones {
             i++;
             st = data[i];
         }
-        //print resulted variables
         return i;
     }
 
