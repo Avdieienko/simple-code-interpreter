@@ -223,7 +223,7 @@ public class BareBones {
             st = data[i];
         }
         //print resulted variables
-        System.out.println(vals.get("X")+" "+vals.get("Y")+" "+vals.get("Z")+" "+vals.get("W"));
+        // System.out.println(vals.get("X")+" "+vals.get("Y")+" "+vals.get("Z")+" "+vals.get("W"));
         return i;
     }
 
